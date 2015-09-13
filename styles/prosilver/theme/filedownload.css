@@ -21,7 +21,11 @@ dl.files dd {
 }
  
 div.inline-attachment dl.file {
-	 display: none;
+	display: none;
+}
+
+dl.file{
+	display: none;
 }
 
 /* ddd */
@@ -55,7 +59,6 @@ dl.extra-box dd a, dl.download-contrib dd {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-
 dl.extra-box.orange, .big-tag.orange {
     background: rgba(0, 0, 0, 0) linear-gradient(45deg, #ffc561 0%, #ff8a2b 100%) repeat scroll 0 0;
 }
@@ -64,12 +67,14 @@ dl.extra-box.download dd.extras {
     color: #fff;
     margin-top: 0.5em;
 }
+
 dl.extra-box.download dd.extras a {
     color: #d21a4e !important;
     display: inline;
     padding: 0;
     text-shadow: none;
 }
+
 dl.download::before {
     background: rgba(0, 0, 0, 0) url("./images/download-arrow.png") no-repeat scroll 0 0;
     content: "";
@@ -80,6 +85,7 @@ dl.download::before {
     top: 0;
     width: 47px;
 }
+
 dl.download dt {
     position: relative;
     text-transform: uppercase;

@@ -3,7 +3,7 @@
 	"type": "phpbb-extension",
 	"description": "Will add a nice download block to the inline attachments",
 	"homepage": "http://www.dmzx-web.net",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"time": "2015-08-29",
 	"keywords": ["phpbb", "extension", "File Download"],
 	"license": "GPL-2.0",
