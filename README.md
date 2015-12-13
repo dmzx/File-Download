@@ -1,5 +1,7 @@
 # phpBB File Download Extension
 
+[![Build Status](https://travis-ci.org/dmzx/File-Download.svg?branch=master)](https://travis-ci.org/dmzx/File-Download)
+
 ## Install
 
 1. Download the latest release.
